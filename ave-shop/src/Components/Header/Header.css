@@ -1,0 +1,209 @@
+.header  {height: 37.8125rem;}
+.header__top-bar{
+    width: 100%;
+    text-align: center;
+    height: 2.85rem;
+    background-color:rgb(51, 51, 51);
+    
+}
+.header__nav-in{
+    margin-top: 1rem;
+}
+.header__nav-in a:hover{
+    text-decoration: none;
+}
+.header__top-bar ul{
+    float: right;
+    display: flex;
+    line-height: 2.85rem;
+    margin-right: 1.25em;
+    
+}
+.header__top-bar li{
+    list-style: none;
+    width: 6.25rem;
+    color:rgb(119, 119, 119)
+}
+.header__top-bar ul li a{
+    text-decoration: none;
+    color: rgb(119, 119, 119);
+}
+.header__top-bar li:hover{
+    list-style: none;
+    background-color: rgb(0, 200, 200);
+    color:rgb(255, 255, 255);
+
+
+}
+.header__top-bar ul li a:hover{
+    color: rgb(255, 255, 255) ;
+}
+.header__top{
+    height: 3.125%;
+}
+.header__top .menu__collapse{
+    display: none;
+    line-height: 3.125rem;
+    position: relative;
+    float: right;
+    font-size: 2rem;
+    cursor: pointer;}
+@media screen and (max-width:1200px){
+    .header__top .menu__collapse {display: block;}
+    .header__nav                 {display: none;}
+    .header__logo                {display: none;}     
+}
+@media screen and (min-width:1200px){
+    .header__nav-show            {display: none;}
+}
+.header__nav{
+    font-size: 12px;
+    position: relative;
+}
+.header__nav ul{
+    display: flex;
+    float: right;
+}
+.header__nav ul li{
+    list-style: none;
+    width: 10em;
+    line-height: 3.125rem;
+}
+.header__nav ul li:hover{
+    list-style: none;
+}
+.header__nav ul li a{
+    text-decoration: none;
+    color:rgb(34, 34, 34);
+    font-size: 1em;}
+.header__nav ul li a:hover{
+    text-decoration: none;
+    color:rgb(0, 200, 200);
+}
+
+
+.header__nav-show{
+    width:200px;
+    background-color: rgb(248, 248, 248);
+    color: rgb(34, 34, 34);
+    position: relative;
+    top: 0px;
+    left: -40px;
+    z-index: 10;
+}
+.header__nav-show ul{
+    display: block;
+    width: 200px;
+}
+.header__nav-show ul li{
+    list-style: none;
+    border:1px solid rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgb(34, 34, 34);
+}
+.header__nav-show ul li:hover{
+    list-style: none;
+    background-color: rgb(0, 255, 255);
+    color:rgb(255, 255, 255);
+}
+.header__nav-show ul li a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+.header__nav-show ul li a:hover{
+    text-decoration: none;
+}
+
+
+.header__logo{
+    color:rgb(34, 34, 34);
+    line-height: 3.125rem;
+}
+.header__search{
+    width: 11.5rem;
+    line-height: 3.125rem;
+    float: right;
+}
+.header__search input{
+    width: 9.375rem;
+    height: 1.25rem;
+}
+.header__search i{
+    height: 1.25rem;
+    width: 1.875rem;
+    text-align: center;
+    position: relative;
+    left: -1,875rem;
+    top:-0.125rem;
+}
+
+
+
+
+.header__sub-nav{
+    position: absolute;
+    top:50px;
+    left:-60px;
+    width: 380px;
+    z-index: 5;
+    background-color: rgb(248, 248, 248);
+    box-shadow: 0px 5px 5px 0px rgba(34,34,34,0.5);
+}
+.header__sub-nav ul{
+    display: inline-block;
+}
+.header__sub-nav li{
+    list-style: none;
+    height: 35px;
+}
+.header__sub-nav li a{
+    text-decoration: none;
+    color:rgb(34, 34, 34);
+}
+.header__sub-nav li a:hover{
+    text-decoration: none;
+    color:rgb(0, 200, 200);
+}
+.header__sub-nav-col1{
+    width: 50%;
+}
+.header__sub-nav-col2{
+    float: right;
+    width: 50%;
+}
+
+.header__content-img{
+    position: relative;
+    width: 100%;
+    height: 605px;
+    top:-50px;
+    left: 0;
+    background-size: cover;
+    z-index: -3;
+    
+}
+.header__content-text-logo{
+    color:rgb(87, 81, 83);
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    top: 2.85rem;
+    font-size: 20em;
+    font-weight: bold;
+    letter-spacing:0.6em;
+    width: 100%;
+    z-index: -2;
+}
+@media screen and (max-width:1000px){
+    .header__content-text-logo       {display: none;}
+    .header__content-img             {display: none;}
+
+}
+
+
+.header__tittle{height: 25rem;position: relative;top:7rem;left: 0;}
+.header__tittle img{width: 100%;height: 18.5rem;position: absolute;top: 0;left: 0;}
+.header__tittle-b{height:18.5rem;position: absolute;width:100%;top:0;left: 0;background-color: rgba(34, 34, 34, 0.7);}
+.header__tittle-text-1{text-align: center;color: rgb(255, 255, 255);margin-top: 5.3125rem;}
+.header__tittle-text-2{text-align: center;color: rgb(255, 255, 255);}
